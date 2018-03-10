@@ -47,6 +47,7 @@ html {
 .clickable:hover {
     background: #365381;
 }
+/*active state for clickable link*/
 .clickable:active {
     box-shadow: none;
 }
@@ -240,7 +241,7 @@ html {
     grid-template-columns: minmax(20em, 1fr) minmax(20em, 35em) minmax(20em, 1fr);
     grid-template-rows: max-content auto;
     padding: 7em 7em 1em 7em;
-    line-height: 1.4em;
+    line-height: 1.8em;
     background: #fff;
 }
 
@@ -272,7 +273,7 @@ html {
 .footer-link {
     text-decoration: none;
     color: #223F6D;
-    line-height: 1.6em;
+    line-height: 1.8em;
 }
 .footer-link:hover {
     color: #5e7ba9;
@@ -280,8 +281,50 @@ html {
 }
 
 /*content page styling */
-.content-wrapper {
-    padding: 8em 9em 0 9em;
-    
+.content {
+    box-sizing: border-box;
+    padding: 13em 9em 0 9em;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 130em;
 }
+
+.content h1 {
+    display: inline-block;
+    color: #5e7ba9;
+    font-size: 4.5em;
+    padding-bottom: .5em;
+    margin-bottom: .5em;
+    border-bottom: .1em solid #5e7ba9;
+}
+
+.content section:nth-of-type(2) h1 {
+    padding-top: 1em;
+}
+
+.content p {
+    font-size: 1.6em;
+    line-height: 1.4em;
+}
+
+.content ol {
+    list-style: decimal;
+    padding-top: 2.5em;
+    padding-left: 7em;
+}
+.content li {
+    font-size: 1.6em;
+    line-height: 1.4em;
+}
+
+.focus li:nth-of-type(n+2) {
+    padding-top: 1.4em;
+}
+
+.clients p:nth-of-type(n+2) {
+    padding-top: 1.4em;
+}
+
+
 
