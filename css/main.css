@@ -335,7 +335,7 @@ html {
     background-image: url("../images/city-plane.png");
 }
 .throw {
-    background-image: url("../images/throw.png"); 
+    background-image: url("../images/big-plane.gif"); 
 }
 .solutions {
     
@@ -361,7 +361,7 @@ html {
     text-decoration: none;
     padding: .75em 1em;
     font-size: 3em;
-    border: .1em solid #FFF;
+    border: .075em solid #FFF;
     border-radius: .2em;
     transition: all .15s linear;
 }
@@ -370,7 +370,7 @@ html {
 }
 
 .guide a:hover {
-    border: .15em solid #FFF;
+    border: .1em solid #FFF;
 }
 
 /* about us page styling */
