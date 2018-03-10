@@ -314,11 +314,19 @@ html {
     background-repeat: no-repeat;
     background-size: cover;
 }
-
 .about {
     background-image: url("../images/city-plane.png");
 }
-
+.approach {
+    
+}
+.solutions {
+    
+}
+.team {
+    
+}
+/* about us page styling */
 .focus {
     box-sizing: border-box;
     padding: 13em 9em 5em 9em;
