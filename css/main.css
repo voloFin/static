@@ -348,6 +348,8 @@ html {
     text-decoration: none;
     padding: .75em 1em;
     font-size: 3em;
+    border: .1em solid #FFF;
+    border-radius: .2em;
     transition: all .15s linear;
 }
 .guide i {
@@ -355,7 +357,6 @@ html {
 }
 
 .guide a:hover {
-    border: .1em solid #FFF;
-    border-radius: .2em;
+    border: .15em solid #FFF;
 }
 
