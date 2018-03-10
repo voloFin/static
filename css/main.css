@@ -281,6 +281,9 @@ html {
 }
 
 /*content page styling */
+.content {
+    padding-top: 8em;
+}
 .content h1 {
     display: inline-block;
     color: #365381;
@@ -304,6 +307,10 @@ html {
     font-size: 1.6em;
     line-height: 1.4em;
 }
+
+.content li:nth-of-type(n+2) {
+    padding-top: 1.4em;
+}
 /*parallax style for images on content page*/
 
 .parallax {
@@ -314,11 +321,11 @@ html {
     background-repeat: no-repeat;
     background-size: cover;
 }
-.about {
+.city-plane {
     background-image: url("../images/city-plane.png");
 }
-.approach {
-    
+.throw {
+    background-image: url("../images/throw.png"); 
 }
 .solutions {
     
@@ -329,14 +336,11 @@ html {
 /* about us page styling */
 .focus {
     box-sizing: border-box;
-    padding: 13em 9em 5em 9em;
+    padding: 5em 9em;
     width: 100%;
     margin-left: auto;
     margin-right: auto; 
     max-width: 130em;
-}
-.focus li:nth-of-type(n+2) {
-    padding-top: 1.4em;
 }
 
 .clients {
@@ -380,3 +384,18 @@ html {
     border: .15em solid #FFF;
 }
 
+.approach {
+    box-sizing: border-box;
+    padding: 5em 9em;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto; 
+    max-width: 130em;
+}
+
+.approach p:nth-of-type(2) {
+    margin-top: 1.4em;
+    color: #365381;
+    font-style: italic;
+    font-size: 1.8em;
+}
