@@ -297,8 +297,8 @@ html {
     padding-left: .25em;
     padding-bottom: .25em;
     margin-bottom: .5em;
-    border-left: .1em solid #223F6D;
-    border-bottom: .075em solid #223F6D;
+    border-left: .075em solid #223F6D;
+    border-bottom: .05em solid #223F6D;
 }
 
 .content section:nth-of-type(2) h1 {
@@ -348,10 +348,14 @@ html {
     text-decoration: none;
     padding: .75em 1em;
     font-size: 3em;
+    transition: all .15s linear;
+}
+.guide i {
+    margin-left: 1em;
+}
+
+.guide a:hover {
     border: .1em solid #FFF;
     border-radius: .2em;
 }
-
-.guide i {
-    margin-left: 1em;
 
