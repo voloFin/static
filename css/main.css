@@ -281,28 +281,13 @@ html {
 }
 
 /*content page styling */
-.content {
-    box-sizing: border-box;
-    padding: 13em 9em 0 9em;
-    width: 100%;
-    margin-left: auto;
-    margin-right: auto;
-    max-width: 130em;
-}
-
 .content h1 {
     display: inline-block;
-    color: #223F6D;
-    font-size: 4.5em;
-    padding-left: .25em;
-    padding-bottom: .25em;
+    color: #365381;
+    font-size: 3.5em;
+    padding-bottom: .5em;
     margin-bottom: .5em;
-    border-left: .075em solid #223F6D;
-    border-bottom: .05em solid #223F6D;
-}
-
-.content section:nth-of-type(2) h1 {
-    margin-top: 1em;
+    border-bottom: .075em solid #365381;
 }
 
 .content p {
@@ -310,8 +295,8 @@ html {
     line-height: 1.4em;
 }
 
-.content ol {
-    list-style: decimal;
+.content ul {
+    list-style: disc;
     padding-top: 2.5em;
     padding-left: 7em;
 }
@@ -319,13 +304,40 @@ html {
     font-size: 1.6em;
     line-height: 1.4em;
 }
+/*parallax style for images on content page*/
 
+.parallax {
+    height: 35em; 
+    /* below creates the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.about {
+    background-image: url("../images/city-plane.png");
+}
+
+.focus {
+    box-sizing: border-box;
+    padding: 13em 9em 5em 9em;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto; 
+    max-width: 130em;
+}
 .focus li:nth-of-type(n+2) {
     padding-top: 1.4em;
 }
 
 .clients {
-    padding-bottom: 7em;
+    box-sizing: border-box;
+    padding: 5em 9em;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 130em;   
 }
 
 .clients p:nth-of-type(n+2) {
